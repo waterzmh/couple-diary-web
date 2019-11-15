@@ -7,12 +7,13 @@ padding: 0;
 min-height: 100%;
 position: relative;
 }
-#footer{
-position: absolute;
-left: 0;
-right: 0;
-bottom: 0;
-color: #969696;
-text-align: center;
-}
 
+.div_foot {
+    position: fixed;
+    bottom:40px; 
+    left:0px;
+    height: 30px;
+    text-align: center;
+    line-height: 98%;
+    width: 100%;
+}
